@@ -4,9 +4,9 @@ import { StyledImage } from "./styled";
 import { CaptionParagraph } from "./styled";
 import { StyledHeader } from "./styled";
 import { LeadParagraph } from "./styled";
-import { StyledButton } from "./styled";
+import { MessageLink } from "./styled";
 import { ReactComponent as MessageIcon } from "../images/messageIcon.svg";
-import { ButtonParagraph } from "./styled";
+import { StyledParagraph } from "./styled";
 
 const Header = () => (
   <Container>
@@ -25,10 +25,13 @@ const Header = () => (
         have commercial experience, but I assure you that I make up for it with
         commitment and willingness to learn.
       </LeadParagraph>
-      <StyledButton>
+      <MessageLink
+        href="mailto:wroblewski082@gmail.com"
+        rel="noopener noreferrer"
+      >
         <MessageIcon />
-        <ButtonParagraph>Hire Me</ButtonParagraph>
-      </StyledButton>
+        <StyledParagraph>Hire Me</StyledParagraph>
+      </MessageLink>
     </div>
   </Container>
 );
