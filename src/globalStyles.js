@@ -17,7 +17,6 @@ const GlobalStyle = createGlobalStyle`
   word-break: break-word;
   max-width: 1244px;
   margin: 0 auto;
-  padding: 0 14px;
   }
 `;
 
