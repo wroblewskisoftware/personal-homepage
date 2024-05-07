@@ -17,7 +17,7 @@ export const ToggleText = styled.span`
 export const ToggleButton = styled.button`
   padding: 0;
   border: none;
-  background-color: white;
+  border-radius: 15px;
   height: 26px;
   cursor: pointer;
 
