@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Personal-homepage
+
+## Demo
+
+https://wroblewskisoftware.github.io/personal-homepage/
+
+## Description
+
+This web application is currently under development. Please check back soon.
+
+## Additional information
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

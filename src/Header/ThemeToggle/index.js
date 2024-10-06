@@ -1,4 +1,4 @@
-import { ReactComponent as ThemeButtonLightImage } from "../../images/ThemeButtonLight.svg";
+import { ReactComponent as ThemeButtonLightImage } from "../../images/themeButtonLight.svg";
 import { Container, ToggleText, ToggleButton } from "./styled";
 
 const ThemeToggle = () => (
