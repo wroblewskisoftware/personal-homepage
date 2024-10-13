@@ -14,7 +14,6 @@ const GlobalStyle = createGlobalStyle`
 
   body {
   font-family: "Inter", sans-serif;
-  word-break: break-word;
   max-width: 1244px;
   margin: 0 auto;
   }
