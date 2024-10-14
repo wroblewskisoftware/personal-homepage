@@ -3,8 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  width: 159px;
-  align-self: start;
+  justify-content: end;
 `;
 
 export const ToggleText = styled.span`
