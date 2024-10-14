@@ -6,7 +6,7 @@ const Image = () => (
     width="384"
     height="384"
     src={myImage}
-    alt="Mężczyzna nad jeziorem"
+    alt="Mężczyzna w okularach"
   />
 );
 
