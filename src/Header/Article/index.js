@@ -19,7 +19,7 @@ const Article = () => (
       commitment and willingness to learn.
     </LeadParagraph>
     <MessageLink
-      href="mailto:wroblewski082@gmail.com"
+      href="mailto:wroblewskisoftware@gmail.com"
       rel="noopener noreferrer"
     >
       <MessageIcon />
