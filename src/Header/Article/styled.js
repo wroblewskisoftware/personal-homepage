@@ -7,7 +7,7 @@ export const Container = styled.div`
 export const CaptionParagraph = styled.p`
   font-size: 12px;
   font-weight: 700;
-  color: #6e7e91;
+  color: ${({ theme }) => theme.color.slateGray};
   margin: 0 0 12px;
 `;
 
@@ -19,7 +19,7 @@ export const StyledHeader = styled.h1`
 
 export const LeadParagraph = styled.p`
   line-height: 28px;
-  color: #6e7e91;
+  color: ${({ theme }) => theme.color.slateGray};
   margin: 0 0 32px;
 `;
 
@@ -27,23 +27,23 @@ export const MessageLink = styled.a`
   display: inline-flex;
   align-items: center;
   padding: 12px 16px;
-  background-color: #0366d6;
-  color: #ffffff;
-  border: 1px solid #d1d5da4d;
+  background-color: ${({ theme }) => theme.color.scienceBlue};
+  color: ${({ theme }) => theme.color.white};
+  border: 1px solid ${({ theme }) => theme.color.iron};
   border-radius: 4px;
   text-decoration: none;
 
   &:hover {
-    box-shadow: 
-      -2px -2px 0px 0px #8cc2ff,
-      2px 2px 0px 0px #8cc2ff,
-      2px -2px 0px 0px #8cc2ff,
-      -2px 2px 0px 0px #8cc2ff;
+    box-shadow:
+     -2px -2px 0px 0px ${({ theme }) => theme.color.anakiwa},
+      2px 2px 0px 0px ${({ theme }) => theme.color.anakiwa},
+      2px -2px 0px 0px ${({ theme }) => theme.color.anakiwa},
+      -2px 2px 0px 0px ${({ theme }) => theme.color.anakiwa};
     outline: none;
   }
 
   &:active {
-    box-shadow: 0px 2px 0px 0px #14462033 inset;
+    box-shadow: 0px 2px 0px 0px ${({ theme }) => theme.color.parsley} inset;
   }
 `;
 

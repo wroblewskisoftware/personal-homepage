@@ -9,7 +9,7 @@ export const Container = styled.div`
 export const ToggleText = styled.span`
   font-size: 12px;
   font-weight: 700;
-  color: #6e7e91;
+  color: ${({ theme }) => theme.color.slateGray};
   padding-right: 12px;
 `;
 
