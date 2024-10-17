@@ -4,13 +4,22 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: end;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    margin-right: 1px;
+  }
 `;
 
 export const ToggleText = styled.span`
   font-size: 12px;
   font-weight: 700;
+  line-height: 1.3;
   color: ${({ theme }) => theme.color.slateGray};
   padding-right: 12px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    display: none;
+  }
 `;
 
 export const ToggleButton = styled.button`

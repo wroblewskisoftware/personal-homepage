@@ -7,4 +7,7 @@ export const theme = {
     scienceBlue: "#0366d6",
     parsley: "#14462033",
   },
+  breakpoint: {
+    mobileMax: 767,
+  },
 };

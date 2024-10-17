@@ -4,9 +4,9 @@ import {
   StyledHeader,
   LeadParagraph,
   MessageLink,
+  MessageIcon,
   MessageParagraph,
 } from "./styled";
-import { ReactComponent as MessageIcon } from "../../images/messageIcon.svg";
 
 const Article = () => (
   <Container>
