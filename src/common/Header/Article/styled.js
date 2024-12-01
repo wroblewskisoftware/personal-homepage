@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as Icon } from "../../images/messageIcon.svg";
+import { ReactComponent as Icon } from "../../../assets/messageIcon.svg";
 
 export const Container = styled.div`
   align-self: center;

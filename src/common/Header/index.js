@@ -1,7 +1,7 @@
 import { StyledHeader, Container } from "./styled";
 import Image from "./Image";
 import Article from "./Article";
-import ThemeToggle from "./ThemeToggle";
+import ThemeToggle from "../../features/ThemeToggle";
 
 const Header = () => (
   <StyledHeader>

@@ -1,4 +1,4 @@
-import myImage from "../../images/image.jpg";
+import myImage from "../../../assets/image.jpg";
 import { StyledImage } from "./styled";
 
 const Image = () => (
