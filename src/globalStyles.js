@@ -16,6 +16,8 @@ const GlobalStyle = createGlobalStyle`
   font-family: "Inter", sans-serif;
   max-width: 1244px;
   margin: 0 auto;
+  background: ${({ theme }) => theme.color.background};
+  color: ${({ theme }) => theme.color.primaryText};
   }
 `;
 

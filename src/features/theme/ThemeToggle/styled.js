@@ -14,7 +14,7 @@ export const ToggleText = styled.span`
   font-size: 12px;
   font-weight: 700;
   line-height: 1.3;
-  color: ${({ theme }) => theme.color.slateGray};
+  color: ${({ theme }) => theme.color.secondaryText};
   padding-right: 12px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {

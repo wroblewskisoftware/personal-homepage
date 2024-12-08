@@ -8,7 +8,7 @@ export const Container = styled.div`
 export const CaptionParagraph = styled.p`
   font-size: 12px;
   font-weight: 700;
-  color: ${({ theme }) => theme.color.slateGray};
+  color: ${({ theme }) => theme.color.secondaryText};
   margin: 0 0 12px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
@@ -31,7 +31,7 @@ export const LeadParagraph = styled.p`
   font-size: 20px;
   font-weight: 400;
   line-height: 1.4;
-  color: ${({ theme }) => theme.color.slateGray};
+  color: ${({ theme }) => theme.color.secondaryText};
   margin: 0 0 32px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
@@ -44,7 +44,7 @@ export const MessageLink = styled.a`
   display: inline-flex;
   align-items: center;
   padding: 12px 16px;
-  background-color: ${({ theme }) => theme.color.scienceBlue};
+  background-color: ${({ theme }) => theme.color.buttonBackground};
   color: ${({ theme }) => theme.color.white};
   border: 1px solid ${({ theme }) => theme.color.iron};
   border-radius: 4px;
@@ -57,10 +57,10 @@ export const MessageLink = styled.a`
 
   &:hover {
     box-shadow:
-      -2px -2px 0px 0px ${({ theme }) => theme.color.anakiwa},
-      2px 2px 0px 0px ${({ theme }) => theme.color.anakiwa},
-      2px -2px 0px 0px ${({ theme }) => theme.color.anakiwa},
-      -2px 2px 0px 0px ${({ theme }) => theme.color.anakiwa};
+      -2px -2px 0px 0px ${({ theme }) => theme.color.buttonShadow},
+      2px 2px 0px 0px ${({ theme }) => theme.color.buttonShadow},
+      2px -2px 0px 0px ${({ theme }) => theme.color.buttonShadow},
+      -2px 2px 0px 0px ${({ theme }) => theme.color.buttonShadow};
     outline: none;
   }
 
