@@ -19,6 +19,7 @@ export const CaptionParagraph = styled.p`
 export const StyledHeader = styled.h1`
   font-size: 38px;
   font-weight: 900;
+  letter-spacing: 0.05em;
   margin: 0 0 35px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
@@ -56,8 +57,7 @@ export const MessageLink = styled.a`
   }
 
   &:hover {
-    box-shadow:
-      -2px -2px 0px 0px ${({ theme }) => theme.color.buttonShadow},
+    box-shadow: -2px -2px 0px 0px ${({ theme }) => theme.color.buttonShadow},
       2px 2px 0px 0px ${({ theme }) => theme.color.buttonShadow},
       2px -2px 0px 0px ${({ theme }) => theme.color.buttonShadow},
       -2px 2px 0px 0px ${({ theme }) => theme.color.buttonShadow};
