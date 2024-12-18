@@ -4,9 +4,9 @@ import {
   StyledHeader,
   StyledList,
   StyledItem,
+  StyledIcon,
   StyledParagraph,
 } from "./styled";
-import { ReactComponent as ListIcon } from "../../../assets/listIcon.svg";
 
 const List = ({ listHeader, content }) => (
   <StyledSection>
@@ -14,7 +14,7 @@ const List = ({ listHeader, content }) => (
     <StyledList>
       {content.map((element) => (
         <StyledItem key={nanoid()}>
-          <ListIcon />
+          <StyledIcon />
           <StyledParagraph>{element}</StyledParagraph>
         </StyledItem>
       ))}

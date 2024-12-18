@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ReactComponent as ListIcon } from "../../../assets/listIcon.svg";
 
 export const StyledSection = styled.section`
   margin: 0 14px 72px;
@@ -6,6 +7,11 @@ export const StyledSection = styled.section`
   background: ${({ theme }) => theme.color.sectionBackground};
   box-shadow: 0px 16px 58px 0px ${({ theme }) => theme.color.violet};
   box-shadow: 0px -2px 50px 0px ${({ theme }) => theme.color.haiti};
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    padding: 16px 16px 12px;
+    margin-bottom: 50px;
+  }
 `;
 
 export const StyledHeader = styled.h2`
@@ -15,6 +21,12 @@ export const StyledHeader = styled.h2`
   font-size: 30px;
   font-weight: 900;
   letter-spacing: 0.05em;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    font-size: 18px;
+    padding-bottom: 12px;
+    margin-bottom: 8px;
+  }
 `;
 
 export const StyledList = styled.ul`
@@ -22,6 +34,10 @@ export const StyledList = styled.ul`
   grid-template-columns: repeat(3, 1fr);
   margin: 0;
   padding: 0;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const StyledItem = styled.li`
@@ -29,12 +45,29 @@ export const StyledItem = styled.li`
   align-items: center;
   gap: 16px;
   list-style: none;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    gap: 6px;
+  }
+`;
+
+export const StyledIcon = styled(ListIcon)`
+  flex-shrink: 0;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    width: 6px;
+  }
 `;
 
 export const StyledParagraph = styled.p`
   font-size: 18px;
-  line-height: 25.2px;
+  line-height: 1.4;
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.secondaryText};
   margin: 4px 24px 4px 0;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    font-size: 14px;
+    margin-right: 0;
+  }
 `;
