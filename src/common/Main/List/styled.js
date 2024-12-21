@@ -20,7 +20,6 @@ export const StyledHeader = styled.h2`
   border-bottom: 1px solid ${({ theme }) => theme.color.iron};
   font-size: 30px;
   font-weight: 900;
-  letter-spacing: 0.05em;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 18px;
@@ -62,7 +61,6 @@ export const StyledIcon = styled(ListIcon)`
 export const StyledParagraph = styled.p`
   font-size: 18px;
   line-height: 1.4;
-  letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.secondaryText};
   margin: 4px 24px 4px 0;
 
