@@ -1,4 +1,5 @@
 import List from "./List";
+import Portfolio from "./Portfolio";
 import { skillsArray, learningGoalsArray } from "./List/data";
 
 const Main = () => (
@@ -8,6 +9,7 @@ const Main = () => (
       listHeader={"What I want to learn next 🚀"}
       content={learningGoalsArray}
     />
+    <Portfolio />
   </main>
 );
 
