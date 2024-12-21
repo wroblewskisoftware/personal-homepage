@@ -8,6 +8,7 @@ export const StyledContainer = styled.div`
 export const StyledIcon = styled(GithubIcon)`
   height: 40px;
   margin-bottom: 12px;
+  color: ${({ theme }) => theme.color.buttonBackground};
 `;
 
 export const StyledHeader = styled.h2`
