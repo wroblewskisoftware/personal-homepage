@@ -1,10 +1,18 @@
 const baseTheme = {
   color: {
     white: "#ffffff",
+    whiteLilac: "#fbfbfe",
+    slateGray: "#6e7e91",
     iron: "#d1d5da4d",
+    gray: "#363636B8",
+    dark: "#252525",
     parsley: "#14462033",
-    violet: "#090A3308",
     haiti: "#090A3305",
+    violet: "#090A3308",
+    lightBlue: "#8CC2FF",
+    blueGray: "#6D93BE",
+    dodgerBlue: "#2188FF",
+    scienceBlue: "#0366D6",
   },
   breakpoint: {
     mobileMax: 767,
@@ -14,22 +22,22 @@ const baseTheme = {
 const themeVariants = {
   light: {
     color: {
-      background: "#fbfbfe",
-      sectionBackground: "#ffffff",
-      primaryText: "#252525",
-      secondaryText: "#6e7e91",
-      buttonBackground: "#0366D6",
-      buttonShadow: "#8CC2FF",
+      background: baseTheme.color.whiteLilac,
+      sectionBackground: baseTheme.color.white,
+      primaryText: baseTheme.color.dark,
+      secondaryText: baseTheme.color.slateGray,
+      buttonBackground: baseTheme.color.scienceBlue,
+      buttonShadow: baseTheme.color.lightBlue,
     },
   },
   dark: {
     color: {
-      background: "#252525",
-      sectionBackground: "#363636B8",
-      primaryText: "#ffffff",
-      secondaryText: "#ffffff",
-      buttonBackground: "#2188FF",
-      buttonShadow: "#6D93BE",
+      background: baseTheme.color.dark,
+      sectionBackground: baseTheme.color.gray,
+      primaryText: baseTheme.color.white,
+      secondaryText: baseTheme.color.white,
+      buttonBackground: baseTheme.color.dodgerBlue,
+      buttonShadow: baseTheme.color.blueGray,
     },
   },
 };
