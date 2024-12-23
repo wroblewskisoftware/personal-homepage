@@ -4,11 +4,20 @@ import { ReactComponent as LoadingIcon } from "../../../../assets/loadingIcon.sv
 export const StyledContainer = styled.div`
   text-align: center;
   margin-top: 88px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    margin-top: 60px;
+  }
 `;
 
 export const StyledParagraph = styled.p`
   font-size: 20px;
   margin: 0 0 48px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    font-size: 17px;
+    margin-bottom: 32px;
+  }
 `;
 
 export const Icon = styled(LoadingIcon)`
@@ -21,6 +30,11 @@ export const Icon = styled(LoadingIcon)`
 
   path {
     stroke: ${({ theme }) => theme.color.loadingCirclePart};
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    height: 112px;
+    margin-bottom: 8px;
   }
 
   @keyframes all {
