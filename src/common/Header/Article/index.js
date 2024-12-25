@@ -3,10 +3,8 @@ import {
   CaptionParagraph,
   StyledHeader,
   LeadParagraph,
-  MessageLink,
-  MessageIcon,
-  MessageParagraph,
 } from "./styled";
+import { StyledLink, StyledIcon, StyledParagraph } from "../../styled";
 
 const Article = () => (
   <Container>
@@ -20,13 +18,13 @@ const Article = () => (
       (Flexbox, Grid, RWD). I’m excited to bring my fresh perspective to your
       organization and deliver solutions that add real value.
     </LeadParagraph>
-    <MessageLink
+    <StyledLink
       href="mailto:wroblewskisoftware@gmail.com"
       rel="noopener noreferrer"
     >
-      <MessageIcon />
-      <MessageParagraph>Hire Me</MessageParagraph>
-    </MessageLink>
+      <StyledIcon />
+      <StyledParagraph>Hire Me</StyledParagraph>
+    </StyledLink>
   </Container>
 );
 
