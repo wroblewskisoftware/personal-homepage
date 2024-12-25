@@ -39,7 +39,7 @@ export const StyledIcon = styled(Icon)`
   }
 `;
 
-export const StyledParagraph = styled.p`
+export const StyledLinkParagraph = styled.p`
   font-weight: 600;
   font-size: 20px;
   margin: 0;

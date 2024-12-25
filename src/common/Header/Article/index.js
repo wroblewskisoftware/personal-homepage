@@ -4,7 +4,7 @@ import {
   StyledHeader,
   LeadParagraph,
 } from "./styled";
-import { StyledLink, StyledIcon, StyledParagraph } from "../../styled";
+import { StyledLink, StyledIcon, StyledLinkParagraph } from "../../styled";
 
 const Article = () => (
   <Container>
@@ -23,7 +23,7 @@ const Article = () => (
       rel="noopener noreferrer"
     >
       <StyledIcon />
-      <StyledParagraph>Hire Me</StyledParagraph>
+      <StyledLinkParagraph>Hire Me</StyledLinkParagraph>
     </StyledLink>
   </Container>
 );
