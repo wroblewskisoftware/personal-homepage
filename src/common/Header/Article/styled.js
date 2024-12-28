@@ -7,6 +7,7 @@ export const Container = styled.div`
 export const CaptionParagraph = styled.p`
   font-size: 12px;
   font-weight: 700;
+  letter-spacing: normal;
   color: ${({ theme }) => theme.color.secondaryText};
   margin: 0 0 12px;
 

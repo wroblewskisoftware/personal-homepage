@@ -14,6 +14,7 @@ export const ToggleText = styled.span`
   font-size: 12px;
   font-weight: 700;
   line-height: 1.3;
+  letter-spacing: normal;
   color: ${({ theme }) => theme.color.secondaryText};
   padding-right: 12px;
 
