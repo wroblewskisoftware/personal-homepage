@@ -60,7 +60,6 @@ export const StyledIcon = styled(ListIcon)`
 
 export const StyledParagraph = styled.p`
   font-size: 18px;
-  line-height: 1.4;
   color: ${({ theme }) => theme.color.secondaryText};
   margin: 4px 24px 4px 0;
 

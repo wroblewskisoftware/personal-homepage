@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
   body {
   font-family: "Inter", sans-serif;
   letter-spacing: 0.05em;
+  line-height: 1.4;
   max-width: 1244px;
   margin: 0 auto;
   background: ${({ theme }) => theme.color.background};

@@ -33,7 +33,6 @@ export const StyledHeader = styled.h3`
 
 export const StyledParagraph = styled.p`
   font-size: 20px;
-  line-height: 1.4;
   margin: 0 0 32px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {

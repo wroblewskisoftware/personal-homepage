@@ -30,7 +30,6 @@ export const StyledHeader = styled.h1`
 export const LeadParagraph = styled.p`
   font-size: 20px;
   font-weight: 400;
-  line-height: 1.4;
   color: ${({ theme }) => theme.color.secondaryText};
   margin: 0 0 32px;
 
