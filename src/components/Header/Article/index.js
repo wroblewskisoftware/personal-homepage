@@ -4,7 +4,7 @@ import {
   StyledHeader,
   LeadParagraph,
 } from "./styled";
-import { StyledLink, StyledIcon, StyledLinkParagraph } from "../../styled";
+import { StyledLink, StyledIcon, StyledLinkParagraph } from "../../../common/ButtonLink/styled";
 
 const Article = () => (
   <Container>

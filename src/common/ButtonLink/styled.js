@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as Icon } from "../assets/messageIcon.svg";
+import { ReactComponent as Icon } from "../../assets/messageIcon.svg";
 
 export const StyledLink = styled.a`
   display: inline-flex;
