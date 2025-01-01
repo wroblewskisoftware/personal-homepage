@@ -4,7 +4,10 @@ import {
   StyledHeader,
   StyledParagraph,
 } from "./styled";
-import { StyledLink, StyledLinkParagraph } from "../../../../common/ButtonLink/styled";
+import {
+  StyledLink,
+  StyledLinkParagraph,
+} from "../../../../common/ButtonLink/styled";
 
 const ErrorComponent = () => (
   <StyledContainer>
