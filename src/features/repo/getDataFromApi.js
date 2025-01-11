@@ -1,7 +1,7 @@
-export const getDataFromApi = async (api, token) => {
+export const getDataFromApi = async (api, reversedToken) => {
   const response = await fetch(api, {
     headers: {
-      Authorization: `Bearer ${token}`,
+      Authorization: `Bearer ${reversedToken.split("").reverse().join("")}`,
       Accept: "application/json",
     },
   });
