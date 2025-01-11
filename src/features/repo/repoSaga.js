@@ -6,12 +6,12 @@ import {
   fetchRepositoryError,
 } from "./repoSlice";
 import { getDataFromApi } from "./getDataFromApi";
-import { apiUrl, reversedToken } from "./apiCredentials";
+import { apiUrl } from "./githubApi";
 
 function* watchFetchRepositoryHandler() {
   try {
     yield delay(2000);
-    const repoData = yield call(getDataFromApi, apiUrl, reversedToken);
+    const repoData = yield call(getDataFromApi, apiUrl);
     yield put(fetchRepositorySuccess(repoData));
   } catch (error) {
     yield put(fetchRepositoryError());

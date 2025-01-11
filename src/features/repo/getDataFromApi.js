@@ -1,10 +1,5 @@
-export const getDataFromApi = async (api, reversedToken) => {
-  const response = await fetch(api, {
-    headers: {
-      Authorization: `Bearer ${reversedToken.split("").reverse().join("")}`,
-      Accept: "application/json",
-    },
-  });
+export const getDataFromApi = async (api) => {
+  const response = await fetch(api);
 
   if (!response.ok) {
     throw new Error(response.statusText);
