@@ -29,7 +29,6 @@ const themeVariants = {
       buttonBackground: baseTheme.color.scienceBlue,
       buttonShadow: baseTheme.color.lightBlue,
       loadingCircle: baseTheme.color.iron,
-      loadingCirclePart: baseTheme.color.scienceBlue,
     },
   },
   dark: {
@@ -41,7 +40,6 @@ const themeVariants = {
       buttonBackground: baseTheme.color.dodgerBlue,
       buttonShadow: baseTheme.color.blueGray,
       loadingCircle: baseTheme.color.gray,
-      loadingCirclePart: baseTheme.color.dodgerBlue,
     },
   },
 };
