@@ -10,18 +10,34 @@ export const StyledContainer = styled.div`
   &:hover {
     border-color: ${({ theme }) => theme.color.tileBorderHover};
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    margin: 0 2px;
+    padding: 24px 24px 14px;
+  }
 `;
 
 export const StyledTitle = styled.h3`
   color: ${({ theme }) => theme.color.projectTileHeader};
   margin: 0 0 24px;
   font-size: 24px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    font-size: 16px;
+    margin: 0 0 16px;
+  }
 `;
 
 export const StyledDescription = styled.p`
   color: ${({ theme }) => theme.color.secondaryText};
   font-size: 18px;
   margin: 0 0 24px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 0 0 16px;
+  }
 `;
 
 export const StyledWrapper = styled.div`
@@ -34,6 +50,12 @@ export const StyledLabel = styled.p`
   font-size: 18px;
   margin: 0 0 8px;
   min-width: 60px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    font-size: 14px;
+    margin: 0 0 10px;
+    min-width: 47px;
+  }
 `;
 
 export const StyledUrl = styled.a`
@@ -43,4 +65,9 @@ export const StyledUrl = styled.a`
   word-break: break-word;
   text-decoration: none;
   border-bottom: 1px solid ${({ theme }) => theme.color.linkUnderline};
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    font-size: 14px;
+    margin: 0 0 10px;
+  }
 `;
