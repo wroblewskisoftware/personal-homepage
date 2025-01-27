@@ -26,8 +26,10 @@ export const {
 } = repoSlice.actions;
 
 export const selectRepositoryState = (state) => state.repo;
-
 export const selectFetchRepositoryStatus = (state) =>
   selectRepositoryState(state).fetchRepoStatus;
+
+export const selectRepositoriesList = (state) =>
+  selectRepositoryState(state).repo;
 
 export default repoSlice.reducer;
