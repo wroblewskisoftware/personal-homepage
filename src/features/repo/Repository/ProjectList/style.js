@@ -7,4 +7,8 @@ export const StyledList = styled.ul`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    display: block;
+  }
 `;

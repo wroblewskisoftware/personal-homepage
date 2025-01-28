@@ -13,8 +13,8 @@ export const StyledContainer = styled.section`
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-    margin: 0 2px;
     padding: 24px 24px 14px;
+    margin-bottom: 16px;
   }
 `;
 
