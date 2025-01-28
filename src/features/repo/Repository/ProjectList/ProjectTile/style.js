@@ -6,6 +6,7 @@ export const StyledContainer = styled.section`
   box-shadow: 0px 16px 58px 0px ${({ theme }) => theme.color.violet};
   box-shadow: 0px -2px 50px 0px ${({ theme }) => theme.color.haiti};
   padding: 56px 56px 48px;
+  height: 100%;
 
   &:hover {
     border-color: ${({ theme }) => theme.color.tileBorderHover};

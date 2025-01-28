@@ -1,10 +1,11 @@
 import { nanoid } from "@reduxjs/toolkit";
 import ProjectTile from "./ProjectTile";
+import { StyledList } from "./style";
 
 const ProjectList = ({ repositoriesList }) => (
   <>
     {repositoriesList.length !== 0 && (
-      <ul>
+      <StyledList>
         {repositoriesList.map((repository) => (
           <li key={nanoid()}>
             <ProjectTile
@@ -15,7 +16,7 @@ const ProjectList = ({ repositoriesList }) => (
             />
           </li>
         ))}
-      </ul>
+      </StyledList>
     )}
   </>
 );
