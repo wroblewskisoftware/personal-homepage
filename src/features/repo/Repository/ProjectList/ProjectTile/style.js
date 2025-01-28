@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledContainer = styled.div`
+export const StyledContainer = styled.section`
   background: ${({ theme }) => theme.color.sectionBackground};
   border: 6px solid ${({ theme }) => theme.color.tileBorder};
   box-shadow: 0px 16px 58px 0px ${({ theme }) => theme.color.violet};
