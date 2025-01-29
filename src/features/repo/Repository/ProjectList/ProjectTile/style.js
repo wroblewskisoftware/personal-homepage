@@ -67,6 +67,10 @@ export const StyledUrl = styled.a`
   text-decoration: none;
   border-bottom: 1px solid ${({ theme }) => theme.color.linkUnderline};
 
+  &:hover {
+    border-bottom: 1px solid ${({ theme }) => theme.color.buttonBackground};
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 14px;
     margin: 0 0 10px;
