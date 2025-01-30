@@ -4,7 +4,11 @@ import {
   StyledHeader,
   LeadParagraph,
 } from "./styled";
-import { StyledLink, StyledIcon, StyledLinkParagraph } from "../../../common/ButtonLink/styled";
+import {
+  StyledLink,
+  StyledIcon,
+  StyledLinkParagraph,
+} from "../../../common/ButtonLink/styled";
 
 const Article = () => (
   <Container>
@@ -18,10 +22,7 @@ const Article = () => (
       (Flexbox, Grid, RWD). I’m excited to bring my fresh perspective to your
       organization and deliver solutions that add real value.
     </LeadParagraph>
-    <StyledLink
-      href="mailto:wroblewskisoftware@gmail.com"
-      rel="noopener noreferrer"
-    >
+    <StyledLink href="mailto:wroblewskisoftware@gmail.com">
       <StyledIcon />
       <StyledLinkParagraph>Hire Me</StyledLinkParagraph>
     </StyledLink>
