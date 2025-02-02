@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
   margin: 0 14px 109px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    margin: 0 16px 31px;
+  }
 `;
 
 export const StyledCaption = styled.p`
@@ -10,6 +14,10 @@ export const StyledCaption = styled.p`
   letter-spacing: normal;
   color: ${({ theme }) => theme.color.secondaryText};
   margin: 0 0 24px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    margin: 0 0 12px;
+  }
 `;
 
 export const StyledLink = styled.a`
@@ -17,6 +25,10 @@ export const StyledLink = styled.a`
   text-decoration: none;
   font-size: 32px;
   font-weight: 900;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    font-size: 18px;
+  }
 
   &:hover {
     color: ${({ theme }) => theme.color.buttonBackground};
@@ -28,4 +40,10 @@ export const StyledParagraph = styled.p`
   font-size: 18px;
   max-width: 670px;
   margin: 24px 0 56px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 12px 0 40px;
+  }
 `;
