@@ -1,9 +1,9 @@
-import { StyledLink } from "./styled";
+import { StyledSocialLink } from "./styled";
 
 const SocialLink = ({ icon: Icon, href }) => (
-  <StyledLink href={href} target="_blank" rel="noopener noreferrer">
+  <StyledSocialLink href={href} target="_blank" rel="noopener noreferrer">
     <Icon />
-  </StyledLink>
+  </StyledSocialLink>
 );
 
 export default SocialLink;
