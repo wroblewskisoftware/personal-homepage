@@ -1,12 +1,35 @@
 # Personal-homepage
 
+![personal-homepage](personal-homepage.jpg)
+
 ## Demo
 
-https://wroblewskisoftware.github.io/personal-homepage/
+[Personal Homepage](https://wroblewskisoftware.github.io/personal-homepage/)
 
 ## Description
 
-This web application is currently under development. Please check back soon.
+Welcome to my website – my interactive CV and portfolio! Here, you will find information about me, my skills, and the technologies I plan to learn next. I showcase both my projects and those I have contributed to.
+If you're looking for a Junior Frontend Developer to join your team, feel free to contact me – I’m open to new challenges! This site was designed based on a Figma mockup, and its purpose is to demonstrate my skills and passion for programming. Check out my portfolio and click "Hire me" if you have a job opportunity for me!
+
+The quality of my work is overseen by [Krzysztof Dąbrowski](https://www.linkedin.com/in/dabrowskisoftware) - an experienced Senior Software Engineer.
+
+## Technologies
+
+- Semantic HTML
+- NPM
+- React
+- Create React App
+- React-Saga
+- Redux Toolkit
+- JavaScript: ES6+
+- GitHub API (fetch)
+- Custom Hooks
+- Local Storage
+- Responsive Web Design
+- Styled Components
+- Media Queries
+- CSS Grid
+- CSS Flexbox
 
 ## Additional information
 
@@ -23,11 +46,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -48,33 +66,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
