@@ -1,9 +1,9 @@
 const baseTheme = {
   color: {
-    white: "#ffffff",
-    whiteLilac: "#fbfbfe",
-    slateGray: "#6e7e91",
-    iron: "#d1d5da4d",
+    white: "#FFFFFF",
+    whiteLilac: "#FBFBFE",
+    slateGray: "#6E7E91",
+    iron: "#D1D5DA4D",
     mistyGray: "#D1D5DA1A",
     gray: "#363636B8",
     dark: "#252525",
