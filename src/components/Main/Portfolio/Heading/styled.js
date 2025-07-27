@@ -12,7 +12,7 @@ export const StyledContainer = styled.div`
 export const StyledIcon = styled(GithubIcon)`
   height: 40px;
   margin-bottom: 12px;
-  color: ${({ theme }) => theme.color.buttonBackground};
+  color: ${({ theme }) => theme.color.iconBackground};
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     height: 32px;

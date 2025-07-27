@@ -5,7 +5,7 @@ export const StyledLink = styled.a`
   display: inline-flex;
   align-items: center;
   padding: 12px 16px;
-  background-color: ${({ theme }) => theme.color.buttonBackground};
+  background-color: ${({ theme }) => theme.color.hyperlink};
   color: ${({ theme }) => theme.color.white};
   border: 1px solid ${({ theme }) => theme.color.iron};
   border-radius: 4px;
@@ -17,11 +17,7 @@ export const StyledLink = styled.a`
   }
 
   &:hover {
-    box-shadow: -2px -2px 0px 0px ${({ theme }) => theme.color.buttonShadow},
-      2px 2px 0px 0px ${({ theme }) => theme.color.buttonShadow},
-      2px -2px 0px 0px ${({ theme }) => theme.color.buttonShadow},
-      -2px 2px 0px 0px ${({ theme }) => theme.color.buttonShadow};
-    outline: none;
+    outline: 2px solid ${({ theme }) => theme.color.hyperlinkOutline};
   }
 
   &:active {

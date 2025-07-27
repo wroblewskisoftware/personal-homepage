@@ -29,7 +29,7 @@ export const Icon = styled(LoadingIcon)`
   }
 
   path {
-    stroke: ${({ theme }) => theme.color.buttonBackground};
+    stroke: ${({ theme }) => theme.color.loadingCirclePart};
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {

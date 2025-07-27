@@ -15,7 +15,7 @@ export const StyledSocialLink = styled.a`
   }
 
   &:hover {
-    color: ${({ theme }) => theme.color.buttonBackground};
+    color: ${({ theme }) => theme.color.hyperlink};
     outline: none;
   }
 `;
