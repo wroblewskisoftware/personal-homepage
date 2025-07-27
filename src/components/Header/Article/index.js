@@ -13,7 +13,7 @@ import {
 const Article = () => (
   <Container>
     <CaptionParagraph>THIS IS</CaptionParagraph>
-    <StyledHeader>Radosław Wróblewski</StyledHeader>
+    <StyledHeader lang="pl">Radosław Wróblewski</StyledHeader>
     <LeadParagraph>
       I am a Frontend Developer passionate about React and building
       user-friendly and visually appealing interfaces. For the last two years, I
