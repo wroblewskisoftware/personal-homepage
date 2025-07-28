@@ -60,15 +60,16 @@ export const StyledLabel = styled.p`
 `;
 
 export const StyledUrl = styled.a`
-  color: ${({ theme }) => theme.color.buttonBackground};
+  color: ${({ theme }) => theme.color.hyperlink};
   font-size: 18px;
   margin: 0 0 8px;
   word-break: break-word;
   text-decoration: none;
-  border-bottom: 1px solid ${({ theme }) => theme.color.linkUnderline};
+  border-bottom: 1px solid ${({ theme }) => theme.color.hyperlinkUnderline};
 
   &:hover {
-    border-bottom: 1px solid ${({ theme }) => theme.color.buttonBackground};
+    border-bottom: 1px solid
+      ${({ theme }) => theme.color.hyperlinkUnderlineHover};
     outline: none;
   }
 

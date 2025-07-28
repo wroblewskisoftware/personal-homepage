@@ -1,6 +1,6 @@
 import { nanoid } from "@reduxjs/toolkit";
 import ProjectTile from "./ProjectTile";
-import { StyledList } from "./style";
+import { StyledList } from "./styled";
 
 const ProjectList = ({ repositoriesList }) => (
   <>

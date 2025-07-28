@@ -5,7 +5,7 @@ import {
   StyledWrapper,
   StyledLabel,
   StyledUrl,
-} from "./style";
+} from "./styled";
 
 const ProjectTile = ({ title, description, demoUrl, repoUrl }) => (
   <StyledContainer>
