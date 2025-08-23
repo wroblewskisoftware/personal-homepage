@@ -18,6 +18,7 @@ export const ToggleText = styled.span`
   letter-spacing: normal;
   color: ${({ theme }) => theme.color.secondaryText};
   padding-right: 12px;
+  transition: color 0.3s ease;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     display: none;
