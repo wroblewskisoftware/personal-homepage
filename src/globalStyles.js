@@ -18,8 +18,9 @@ const GlobalStyle = createGlobalStyle`
   line-height: 1.4;
   max-width: 1244px;
   margin: 0 auto;
-  background: ${({ theme }) => theme.color.background};
+  background-color: ${({ theme }) => theme.color.background};
   color: ${({ theme }) => theme.color.primaryText};
+  transition: background-color 10s ease, color 10s ease;
   }
 `;
 

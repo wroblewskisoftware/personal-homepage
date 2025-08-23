@@ -10,6 +10,7 @@ export const CaptionParagraph = styled.p`
   letter-spacing: normal;
   color: ${({ theme }) => theme.color.secondaryText};
   margin: 0 0 12px;
+  transition: color 10s ease;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     margin-bottom: 8px;
@@ -32,6 +33,7 @@ export const LeadParagraph = styled.p`
   font-weight: 400;
   color: ${({ theme }) => theme.color.secondaryText};
   margin: 0 0 32px;
+  transition: color 10s ease;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 17px;
