@@ -1,4 +1,3 @@
-import { nanoid } from "@reduxjs/toolkit";
 import {
   StyledSection,
   StyledHeader,
@@ -13,9 +12,9 @@ const List = ({ listHeader, content }) => (
     <StyledHeader>{listHeader}</StyledHeader>
     <StyledList>
       {content.map((element) => (
-        <StyledItem key={nanoid()}>
+        <StyledItem key={element.id}>
           <StyledIcon />
-          <StyledParagraph>{element}</StyledParagraph>
+          <StyledParagraph>{element.skill}</StyledParagraph>
         </StyledItem>
       ))}
     </StyledList>
