@@ -27,6 +27,7 @@ export const StyledLink = styled.a`
   font-size: 32px;
   font-weight: 900;
   transition: color 0.3s ease;
+  word-break: break-word;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 18px;
