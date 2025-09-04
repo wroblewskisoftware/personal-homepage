@@ -13,7 +13,7 @@ export const StyledIcon = styled(GithubIcon)`
   height: 40px;
   margin-bottom: 12px;
   color: ${({ theme }) => theme.color.iconBackground};
-  transition: color 10s ease;
+  transition: color 0.3s ease;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     height: 32px;

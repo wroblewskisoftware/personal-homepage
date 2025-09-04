@@ -14,6 +14,7 @@ export const StyledCaption = styled.p`
   letter-spacing: normal;
   color: ${({ theme }) => theme.color.secondaryText};
   margin: 0 0 24px;
+  transition: color 0.3s ease;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     margin: 0 0 12px;
@@ -25,6 +26,7 @@ export const StyledLink = styled.a`
   text-decoration: none;
   font-size: 32px;
   font-weight: 900;
+  transition: color 0.3s ease;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 18px;

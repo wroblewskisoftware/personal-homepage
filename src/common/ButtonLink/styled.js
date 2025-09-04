@@ -11,7 +11,7 @@ export const StyledLink = styled.a`
   border-radius: 4px;
   text-decoration: none;
   gap: 16px;
-  transition: background-color 10s ease;
+  transition: background-color 0.3s ease;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     gap: 12px;
@@ -19,12 +19,13 @@ export const StyledLink = styled.a`
 
   &:hover {
     outline: 2px solid ${({ theme }) => theme.color.hyperlinkOutline};
-    /* transition: outline-color 10s ease;         nie działa dobrze */
+    transition: outline-color 0.3s ease;
   }
 
   &:active {
+    outline: none;
     box-shadow: 0px 2px 0px 0px ${({ theme }) => theme.color.parsley} inset;
-    /* transition: box-shadow-color 10s ease;          nie działa dobrze */
+    transition: box-shadow 0.3s ease;
   }
 `;
 

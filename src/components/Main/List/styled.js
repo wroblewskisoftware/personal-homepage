@@ -7,7 +7,7 @@ export const StyledSection = styled.section`
   background-color: ${({ theme }) => theme.color.sectionBackground};
   box-shadow: 0px 16px 58px 0px ${({ theme }) => theme.color.violet};
   box-shadow: 0px -2px 50px 0px ${({ theme }) => theme.color.haiti};
-  transition: background-color 10s ease;
+  transition: background-color 0.3s ease;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     padding: 16px 16px 12px;
@@ -63,7 +63,7 @@ export const StyledParagraph = styled.p`
   font-size: 18px;
   color: ${({ theme }) => theme.color.secondaryText};
   margin: 4px 24px 4px 0;
-  /* transition: color 10s ease;         nie chce działać */
+  transition: color 0.3s ease;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 14px;

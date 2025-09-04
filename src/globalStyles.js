@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
   margin: 0 auto;
   background-color: ${({ theme }) => theme.color.background};
   color: ${({ theme }) => theme.color.primaryText};
-  transition: background-color 10s ease, color 10s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
   }
 `;
 
