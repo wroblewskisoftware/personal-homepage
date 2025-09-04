@@ -25,7 +25,7 @@ export const StyledLink = styled.a`
   &:active {
     outline: none;
     box-shadow: 0px 2px 0px 0px ${({ theme }) => theme.color.parsley} inset;
-    transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.1s ease;
   }
 `;
 
