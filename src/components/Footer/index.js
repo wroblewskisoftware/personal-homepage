@@ -5,7 +5,7 @@ import {
   StyledParagraph,
 } from "./styled";
 import SocialLink from "./SocialLinks";
-import { ReactComponent as GithubLogo } from "../../assets/githubLogo.svg";
+import { ReactComponent as GitHubLogo } from "../../assets/gitHubLogo.svg";
 import { ReactComponent as FacebookLogo } from "../../assets/facebookLogo.svg";
 import { ReactComponent as LinkedInLogo } from "../../assets/linkedInLogo.svg";
 
@@ -22,7 +22,7 @@ const Footer = () => (
       help you achieve your business goals.
     </StyledParagraph>
     <SocialLink
-      icon={GithubLogo}
+      icon={GitHubLogo}
       href="https://github.com/wroblewskisoftware"
     />
     <SocialLink

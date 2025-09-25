@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as GithubIcon } from "../../../../assets/githubLogo.svg";
+import { ReactComponent as GitHubIcon } from "../../../../assets/gitHubLogo.svg";
 
 export const StyledContainer = styled.div`
   text-align: center;
@@ -9,7 +9,7 @@ export const StyledContainer = styled.div`
   }
 `;
 
-export const StyledIcon = styled(GithubIcon)`
+export const StyledIcon = styled(GitHubIcon)`
   height: 40px;
   margin-bottom: 12px;
   color: ${({ theme }) => theme.color.iconBackground};
