@@ -23,14 +23,17 @@ const Footer = () => (
     </StyledParagraph>
     <SocialLink
       icon={GitHubLogo}
+      title="GitHub"
       href="https://github.com/wroblewskisoftware"
     />
     <SocialLink
       icon={FacebookLogo}
+      title="Facebook"
       href="https://facebook.com/radoslaw.wroblewskii"
     />
     <SocialLink
       icon={LinkedInLogo}
+      title="LinkedIn"
       href="https://linkedin.com/in/wroblewskisoftware/"
     />
   </StyledFooter>
