@@ -22,7 +22,10 @@ const Article = () => (
       (Flexbox, Grid, RWD). I’m excited to bring my fresh perspective to your
       organization and deliver solutions that add real value.
     </LeadParagraph>
-    <StyledLink href="mailto:wroblewskisoftware@gmail.com">
+    <StyledLink
+      title="wroblewskisoftware@gmail.com"
+      href="mailto:wroblewskisoftware@gmail.com"
+    >
       <StyledIcon />
       <StyledLinkParagraph>Hire Me</StyledLinkParagraph>
     </StyledLink>
