@@ -3,8 +3,9 @@ import styled from "styled-components";
 export const StyledContainer = styled.section`
   background-color: ${({ theme }) => theme.color.sectionBackground};
   border: 6px solid ${({ theme }) => theme.color.tileBorder};
-  box-shadow: 0px 16px 58px 0px ${({ theme }) => theme.color.violet};
-  box-shadow: 0px -2px 50px 0px ${({ theme }) => theme.color.haiti};
+  box-shadow:
+    0px 16px 58px 0px ${({ theme }) => theme.color.violet},
+    0px -2px 50px 0px ${({ theme }) => theme.color.haiti};
   padding: 56px 56px 48px;
   height: 100%;
   transition: background-color 0.3s ease, border-color 0.3s ease;

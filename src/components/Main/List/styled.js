@@ -5,8 +5,9 @@ export const StyledSection = styled.section`
   margin: 0 14px 72px;
   padding: 32px 32px 28px;
   background-color: ${({ theme }) => theme.color.sectionBackground};
-  box-shadow: 0px 16px 58px 0px ${({ theme }) => theme.color.violet};
-  box-shadow: 0px -2px 50px 0px ${({ theme }) => theme.color.haiti};
+  box-shadow:
+    0px 16px 58px 0px ${({ theme }) => theme.color.violet},
+    0px -2px 50px 0px ${({ theme }) => theme.color.haiti};
   transition: background-color 0.3s ease;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
