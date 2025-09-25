@@ -5,9 +5,11 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: end;
+  margin-bottom: -26px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     margin-right: 1px;
+    margin-bottom: -13px;
   }
 `;
 
@@ -50,9 +52,11 @@ export const ThemeToggleThumb = styled.div`
   justify-content: center;
   transition: background-color 0.3s ease, transform 0.25s ease-out;
 
-  ${({ $isDarkMode }) => $isDarkMode && css`
-    transform: translateX(21px);
-  `}
+  ${({ $isDarkMode }) =>
+    $isDarkMode &&
+    css`
+      transform: translateX(21px);
+    `}
 `;
 
 export const ThemeToggleIcon = styled(ThemeButtonIcon)`
